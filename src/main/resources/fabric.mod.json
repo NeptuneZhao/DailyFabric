@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "dailyfabric",
+  "version": "${version}",
+  "name": "DailyFabric",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/dailyfabric/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.halfcooler.dailyfabric.client.DailyfabricClient"
+    ],
+    "main": [
+      "org.halfcooler.dailyfabric.Dailyfabric"
+    ]
+  },
+  "mixins": [
+    "dailyfabric.mixins.json",
+    {
+      "config": "dailyfabric.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
