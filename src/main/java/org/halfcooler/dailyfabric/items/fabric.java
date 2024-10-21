@@ -13,6 +13,7 @@ public class fabric extends Item {
 		super(settings.maxCount(128));
 	}
 
+	// Right click event
 	@Override
 	public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
 		user.playSound(SoundEvents.ENTITY_VILLAGER_NO, 1.0F, 1.5F);
