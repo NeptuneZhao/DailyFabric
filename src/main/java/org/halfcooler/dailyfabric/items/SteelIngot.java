@@ -8,8 +8,8 @@ import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.world.World;
 
-public class fabric extends Item {
-	public fabric(Settings settings) {
+public class SteelIngot extends Item {
+	public SteelIngot(Settings settings) {
 		super(settings);
 	}
 

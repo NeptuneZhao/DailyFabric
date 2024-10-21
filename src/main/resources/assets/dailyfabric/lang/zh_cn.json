@@ -1,4 +1,7 @@
 {
   "item.dailyfabric.fabric": "布料",
-  "item.dailyfabric.steel_ingot": "钢锭"
+  "item.dailyfabric.fabric.tooltip1": "这是一个布料，",
+  "item.dailyfabric.fabric.tooltip2": "一个用于制作服装的材料。",
+  "item.dailyfabric.steel_ingot": "钢锭",
+  "itemGroup.dailyfabric.itemgroups1": "每日布料"
 }
