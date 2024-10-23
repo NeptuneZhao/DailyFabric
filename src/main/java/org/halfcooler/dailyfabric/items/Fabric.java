@@ -26,7 +26,7 @@ public class Fabric extends Item {
 
 	@Override
 	public void appendTooltip(ItemStack itemStack, TooltipContext context, List<Text> tooltip, TooltipType type) {
-		tooltip.add(Text.translatable("item.dailyfabric.Fabric.tooltip1"));
-		tooltip.add(Text.translatable("item.dailyfabric.Fabric.tooltip2"));
+		tooltip.add(Text.translatable("item.dailyfabric.fabric.tooltip1"));
+		tooltip.add(Text.translatable("item.dailyfabric.fabric.tooltip2"));
 	}
 }

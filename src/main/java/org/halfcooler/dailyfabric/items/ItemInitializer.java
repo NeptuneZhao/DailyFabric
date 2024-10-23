@@ -21,6 +21,7 @@ public final class ItemInitializer {
 	private static final String ModName = "dailyfabric";
 
 	public static List<ItemStack> ItemStackList = new ArrayList<>();
+
 	public static <T extends Item> T register(String path, T item, RegistryKey<ItemGroup> group) {
 		LOGGER.atInfo().log("Registering and placing item {}.{}", ModName, path);
 		ItemStackList.add(new ItemStack(item));
@@ -30,8 +31,8 @@ public final class ItemInitializer {
 
 	// Register items
 	public static final Item
-		FABRIC = register("Fabric", new Fabric(new Item.Settings()), ItemGroups1.InstanceRegistryKey),
-		STEEL_INGOT = register("SteelIngot", new SteelIngot(new Item.Settings()), ItemGroups1.InstanceRegistryKey);
+		FABRIC = register("fabric", new Fabric(new Item.Settings()), ItemGroups1.InstanceRegistryKey),
+		STEEL_INGOT = register("steel_ingot", new SteelIngot(new Item.Settings()), ItemGroups1.InstanceRegistryKey);
 
 	public static void Init() {
 		FuelRegistry.INSTANCE.add(FABRIC, 200);

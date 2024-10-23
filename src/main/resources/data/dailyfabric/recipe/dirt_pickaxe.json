@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OO",
+    "O "
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:dirt"
+    }
+  },
+  "result": {
+    "id": "dailyfabric:dirt_pickaxe",
+    "count": 1
+  }
+}

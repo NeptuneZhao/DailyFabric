@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OOO",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:baked_potato"
+    },
+    "S": {
+      "item": "dailyfabric:steel_ingot"
+    }
+  },
+  "result": {
+    "id": "dailyfabric:baked_potato_pickaxe",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+    "textures": {
+        "layer0": "dailyfabric:item/dirt_pickaxe"
+    }
+}

@@ -1,7 +1,11 @@
 {
+  "itemGroup.dailyfabric.itemgroups1": "每日布料",
   "item.dailyfabric.fabric": "布料",
   "item.dailyfabric.fabric.tooltip1": "这是一个布料，",
   "item.dailyfabric.fabric.tooltip2": "一个用于制作服装的材料。",
   "item.dailyfabric.steel_ingot": "钢锭",
-  "itemGroup.dailyfabric.itemgroups1": "每日布料"
+  "item.dailyfabric.dirt_pickaxe": "泥土镐",
+  "item.dailyfabric.baked_potato_pickaxe": "烤土豆镐",
+  "item.dailyfabric.bakedpotatopickaxeitem.tooltip1": "锡纸娃娃菜,",
+    "item.dailyfabric.bakedpotatopickaxeitem.tooltip2": "钢锭烤土豆!"
 }
